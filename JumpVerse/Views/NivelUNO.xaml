@@ -1,0 +1,51 @@
+﻿<Window x:Class="JumpVerse.Views.NivelUNO"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JumpVerse.Views"
+        mc:Ignorable="d"
+        Title="NivelUNO" Height="450" Width="800" MaxHeight="450" MaxWidth="800">
+    <Window.Background>
+        <ImageBrush ImageSource="/Source/nivel1finalpixel.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas >
+            <StackPanel Canvas.Left="80" Canvas.Top="70">
+                <Image Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+                <Image Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+                <Image Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+                <Image  Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+
+                <Image  Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+            </StackPanel>
+        </Canvas>
+        <Canvas >
+            <WrapPanel Canvas.Left="160" Canvas.Top="70">
+                <Image Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+                <Image Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+                <Image Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+                <Image  Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+                <Image  Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+            </WrapPanel>
+        </Canvas>
+        <Canvas >
+            <StackPanel Canvas.Left="640" Canvas.Top="70">
+                <Image Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+                <Image Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+                <Image Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+                <Image  Opacity="0" Source="/Source/plataforma.png" Width="80" Height="80"></Image>
+            </StackPanel>
+        </Canvas>
+        <Canvas>
+            <Grid Canvas.Top="300" Canvas.Left="70">
+                <Image Width="100" Height="100" Source="/Source/arriba.png"></Image>
+
+            </Grid>
+        </Canvas>
+    </Grid>
+</Window>
