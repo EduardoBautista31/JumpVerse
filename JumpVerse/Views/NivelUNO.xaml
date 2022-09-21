@@ -10,10 +10,18 @@
         <ImageBrush ImageSource="/Source/nivel1finalpixel.jpg"></ImageBrush>
     </Window.Background>
     <Grid>
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Center" FontFamily="Verdana" Foreground="Black" FontSize="40">NIVEL 1
+            <TextBlock.Effect>
+                <DropShadowEffect BlurRadius="7" ShadowDepth="5" Color="White">
+                    
+                </DropShadowEffect>
+            </TextBlock.Effect>
+        </TextBlock>
         <Canvas >
             <StackPanel Canvas.Left="80" Canvas.Top="70">
                 <Image Source="/Source/plataforma.png" Width="80" Height="80"></Image>
@@ -49,12 +57,12 @@
         </Canvas>
         <WrapPanel Margin="0,0,0,10"  HorizontalAlignment="Center" VerticalAlignment="Bottom">
            
-                <Button Margin="2" Width="35" Height="35" >
-                <Label FontFamily="Marlett">3</Label></Button>
-                <Button Margin="2" Width="35" Height="35" >
-                <Label FontFamily="Marlett">4</Label></Button>
-            <Button Margin="2" Width="35" Height="35">
-                <Label FontFamily="Marlett">5</Label>
+                <Button BorderThickness="1" BorderBrush="White" Background="Black" Margin="2" Width="35" Height="35" >
+                <Label Foreground="White" FontSize="20" FontFamily="Marlett">3</Label></Button>
+            <Button BorderThickness="1" BorderBrush="White" Background="Black" Margin="2" Width="35" Height="35" >
+                <Label Foreground="White" FontSize="20" FontFamily="Marlett">4</Label></Button>
+            <Button BorderThickness="1" BorderBrush="White" Background="Black" Foreground="White" Margin="2" Width="35" Height="35">
+                <Label Foreground="White" FontSize="20" FontFamily="Marlett">5</Label>
             </Button>
         </WrapPanel>
         
