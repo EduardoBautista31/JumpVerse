@@ -47,5 +47,16 @@
 
             </Grid>
         </Canvas>
+        <Canvas>
+            <WrapPanel Canvas.Left="">
+                <Rectangle Margin="2" Width="30" Height="30" Fill="White"></Rectangle>
+                <Rectangle Margin="2" Width="30" Height="30" Fill="White"></Rectangle>
+                <Rectangle Margin="2" Width="30" Height="30" Fill="White"></Rectangle>
+                <Rectangle Margin="2" Width="30" Height="30" Fill="White"></Rectangle>
+
+
+
+            </WrapPanel>
+        </Canvas>
     </Grid>
 </Window>
